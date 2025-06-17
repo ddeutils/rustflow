@@ -1,5 +1,6 @@
 default_install_hook_types: [pre-commit, commit-msg, pre-push]
-default_language: rust
+default_language_version:
+    rust: rustc
 
 ci:
     skip: [pytest-check, commit-msg-hook]
